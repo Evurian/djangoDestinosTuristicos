@@ -1,0 +1,100 @@
+/* estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.add-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+/* estilos específicos para los destinos turísticos */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.destino-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destino-info {
+    flex: 1;
+}
+
+.destino-imagen {
+    max-width: 200px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.destino-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.destino-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.precio {
+    font-weight: bold;
+}
+
+.oferta {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.buttons a:hover {
+    background-color: #218838;
+}
+
+.buttons a:last-child {
+    background-color: #dc3545;
+}
+
+.buttons a:last-child:hover {
+    background-color: #c82333;
+}
